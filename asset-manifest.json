@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Realm-Clickers-Idle-Adventure/static/css/main.2fa1e211.css",
+    "main.js": "/Realm-Clickers-Idle-Adventure/static/js/main.653cb1c4.js",
+    "static/js/787.f027e7d5.chunk.js": "/Realm-Clickers-Idle-Adventure/static/js/787.f027e7d5.chunk.js",
+    "static/media/boss.png": "/Realm-Clickers-Idle-Adventure/static/media/boss.6906adcc2e7c7690abe0.png",
+    "static/media/logo.svg": "/Realm-Clickers-Idle-Adventure/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Realm-Clickers-Idle-Adventure/index.html",
+    "main.2fa1e211.css.map": "/Realm-Clickers-Idle-Adventure/static/css/main.2fa1e211.css.map",
+    "main.653cb1c4.js.map": "/Realm-Clickers-Idle-Adventure/static/js/main.653cb1c4.js.map",
+    "787.f027e7d5.chunk.js.map": "/Realm-Clickers-Idle-Adventure/static/js/787.f027e7d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fa1e211.css",
+    "static/js/main.653cb1c4.js"
+  ]
+}

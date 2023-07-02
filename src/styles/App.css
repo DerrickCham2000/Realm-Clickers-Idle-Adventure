@@ -1,0 +1,18 @@
+.App {
+}
+
+.game-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.stat-wrapper{
+  flex-basis: 25%;
+}
+
+.clicker-wrapper {
+  flex-basis: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

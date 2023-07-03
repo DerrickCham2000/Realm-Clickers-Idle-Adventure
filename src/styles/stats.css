@@ -1,6 +1,6 @@
 .stats {
-    margin-top: 30px;
-    background-color: #dce0dd;
+    margin-top: -20px;
+    background-color: rgba(220, 224, 221, 0.8);
     height: 100vh;
     width: 50vh;
   }
@@ -11,4 +11,9 @@
   
   .stats p {
     font-size: 18px;
+  }
+
+  .tooltip {
+    color: gray;
+    font-style: italic;
   }

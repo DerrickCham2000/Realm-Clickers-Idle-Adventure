@@ -1,9 +1,14 @@
 .App {
+
 }
 
 .game-wrapper {
   display: flex;
   justify-content: flex-start;
+  background-image: url('../sprites/background.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .stat-wrapper{

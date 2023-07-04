@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Realm-Clickers-Idle-Adventure/static/css/main.c112a7c3.css",
-    "main.js": "/Realm-Clickers-Idle-Adventure/static/js/main.b4ee271c.js",
+    "main.css": "/Realm-Clickers-Idle-Adventure/static/css/main.61dc8376.css",
+    "main.js": "/Realm-Clickers-Idle-Adventure/static/js/main.a2291277.js",
     "static/js/787.f027e7d5.chunk.js": "/Realm-Clickers-Idle-Adventure/static/js/787.f027e7d5.chunk.js",
     "static/media/boss.png": "/Realm-Clickers-Idle-Adventure/static/media/boss.6906adcc2e7c7690abe0.png",
     "index.html": "/Realm-Clickers-Idle-Adventure/index.html",
-    "main.c112a7c3.css.map": "/Realm-Clickers-Idle-Adventure/static/css/main.c112a7c3.css.map",
-    "main.b4ee271c.js.map": "/Realm-Clickers-Idle-Adventure/static/js/main.b4ee271c.js.map",
+    "main.61dc8376.css.map": "/Realm-Clickers-Idle-Adventure/static/css/main.61dc8376.css.map",
+    "main.a2291277.js.map": "/Realm-Clickers-Idle-Adventure/static/js/main.a2291277.js.map",
     "787.f027e7d5.chunk.js.map": "/Realm-Clickers-Idle-Adventure/static/js/787.f027e7d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c112a7c3.css",
-    "static/js/main.b4ee271c.js"
+    "static/css/main.61dc8376.css",
+    "static/js/main.a2291277.js"
   ]
 }

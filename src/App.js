@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Game from './components/Game';
-import Stats from './components/Stats';
+import Upgrades from './components/Upgrades';
 import './styles/App.css';
 
 function App() {
@@ -14,14 +14,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Clicker RPG</h1>
+      <div className='header'>
+        Realm Clickers: Idle Adventures
+      </div>
       <div className='game-wrapper'>
         <div className='stat-wrapper'>
-          <Stats
+          <Upgrades
             stats={stats}
             setStats={setStats}
             gold = {stats.gold}
-            dps = {stats.dps}
           />
         </div>
         <div className='clicker-wrapper'>

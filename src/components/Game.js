@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import '../styles/game.css';
 import boss from '../sprites/boss.png';
 
-const boss_max_health = 1000000;
+const boss_max_health = 100000;
 
 function Game({stats, setStats, gold, gps, dps, goldPerClick, clickDamage}) {
 
   const [monsterHealth, setMonsterHealth] = useState(boss_max_health);
+  const [shownAlert, setShownAlert] = useState(false);
 
   const handleClick = () => {
     if (monsterHealth > 0) {
@@ -20,6 +21,9 @@ function Game({stats, setStats, gold, gps, dps, goldPerClick, clickDamage}) {
 
   useEffect(() => {
     // Autoclicker damage every second based on level
+    if (monsterHealth <= 0) {
+      alert("You Won!");
+    }
     const autoclickerInterval = setInterval(() => {
       if (monsterHealth > 0) {
         setMonsterHealth(monsterHealth - (dps / 10)); //change 0 to dps

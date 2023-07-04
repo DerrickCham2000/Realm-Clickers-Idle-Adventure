@@ -4,11 +4,13 @@ import Stats from './components/Stats';
 import './styles/App.css';
 
 function App() {
-  const [gold, setGold] = useState(0);
-  const [goldGain, setGoldGain] = useState(1);
-  const [clickDamage, setClickDamage] = useState(1);
-  const [autoclickerLevel, setAutoclickerLevel] = useState(0);
-  const [dps, setDPS] = useState(0);
+  const [stats, setStats] = useState({
+    dps: 0,
+    gold: 0,
+    gps: 0,
+    goldPerClick: 1,
+    clickDamage: 1,
+  });
 
   return (
     <div className="App">
@@ -16,22 +18,21 @@ function App() {
       <div className='game-wrapper'>
         <div className='stat-wrapper'>
           <Stats
-            autoclickerLevel={autoclickerLevel}
-            setAutoclickerLevel={setAutoclickerLevel}
-            setGold={setGold}
-            gold={gold}
-            setDPS={setDPS}
-            dps={dps}
+            stats={stats}
+            setStats={setStats}
+            gold = {stats.gold}
+            dps = {stats.dps}
           />
         </div>
         <div className='clicker-wrapper'>
           <Game
-            gold={gold}
-            setGold={setGold}
-            goldGain={goldGain}
-            autoclickerLevel={autoclickerLevel}
-            dps={dps}
-            clickDamage={clickDamage}
+            stats={stats}
+            gold={stats.gold}
+            dps={stats.dps}
+            goldPerClick={stats.goldPerClick}
+            gps={stats.gps}
+            clickDamage={stats.clickDamage}
+            setStats={setStats}
           />
         </div>
       </div>

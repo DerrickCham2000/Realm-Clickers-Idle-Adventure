@@ -31,7 +31,17 @@
 
 .mushroom_boss{
     width: 600px;
+    transition: transform 0.1s;
 }
+
+.mushroom_boss:active {
+    transform: scale(0.95);
+  }
+
+  .mushroom_boss:focus {
+    outline: none;
+}
+
 
 .game {
     margin-top: 30px;
